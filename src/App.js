@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
+import Notfound from "./pages/Notfound";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
                 <Route path="about" element={<About />}></Route>
                 <Route path="projects" element={<Projects />}></Route>
                 <Route path="contact" element={<Contact />}></Route>
+                <Route path="*" extact={true} element={<Notfound />}></Route>
             </Routes>
         </div>
     </Router>
