@@ -14,13 +14,14 @@
   justify-content: flex-end;
   background-color: #999;
   padding: 9px;
+  font-size: 1.2rem;
   
 }
 
 .nav a {
   color: #fff;
   text-decoration: none;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 .nav a:hover {
@@ -30,4 +31,8 @@
 
 .nav-item {
   list-style: none;
+}
+
+.nav-item:last-of-type {
+  padding-right: 25px;
 }
