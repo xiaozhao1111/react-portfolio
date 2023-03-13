@@ -6,9 +6,9 @@ import Header from "../components/Header";
 function Home() {
     return (
         <>
-            <Header />
+            <h1>This is the home page!</h1>
         </>
     )
 }
 
-export default Header;
+export default Home;
