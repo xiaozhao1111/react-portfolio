@@ -8,8 +8,7 @@ function Hero() {
         
         <div className="hero">
             <div class="name-photo">
-            <img src={photo} alt="photo" />
-            <h1>Xiao Zhao</h1>
+            <img src={photo} alt="profile" />
             </div>
             <h2>Stay Hungry! Stay Foolish!</h2>
         </div>
