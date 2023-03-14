@@ -7,7 +7,7 @@ function Hero() {
     return( 
         
         <div className="hero">
-            <div class="name-photo">
+            <div className="name-photo">
             <img src={photo} alt="profile" />
             </div>
             <h2>Stay Hungry! Stay Foolish!</h2>

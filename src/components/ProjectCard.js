@@ -1,9 +1,9 @@
 import React from "react";
 
-function Project(props) {
+function ProjectCard(props) {
     return(
-        <div className="card m-1" style={{width: '16rem'}}>
-            <img src={props.image} className="card-img-top" alt={props.title}></img>
+        <div className="card m-2 p-0 text-white" style={{width: '16rem', height: '27rem'} }>
+            <img src={(props.image)} className="card-img-top" alt={props.title}></img>
             <div className="card-body d-flex flex-column">
                 <h5 className="card-title">{props.title}</h5>
                 <p className="card-text">{props.description}</p>
@@ -12,3 +12,5 @@ function Project(props) {
         </div>
     )
 }
+
+export default ProjectCard;

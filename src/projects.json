@@ -1,0 +1,16 @@
+[{
+    "key": "project1",
+    "title": "Travel-california",
+    "description": " In this project, we'll review a creative brief via Figma, and code a webpage for Travel Calfiornia using Boostrap 4, HTML, and CSS.",
+    "image": "/images/01-travel-california.png",
+    "link": "https://xiaozhao1111.github.io/travel-california/"
+  },
+  {
+    "key": "project2",
+    "title": "Travel-california",
+    "description": "https://jxg052.github.io/Code-Quiz/",
+    "image": "./assets/images/01-travel-california.png",
+    "link": "./images/code-quiz.png"
+  }
+
+]
