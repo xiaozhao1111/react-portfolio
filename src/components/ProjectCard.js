@@ -2,7 +2,7 @@ import React from "react";
 
 function ProjectCard(props) {
     return(
-        <div className="card m-4 p-0 text-white" style={{width: '16rem', height: '27.5rem'} }>
+        <div className="card m-4 p-0 text-white card-border" style={{width: '16rem', height: '27.5rem'} }>
             <img src={(props.image)} className="card-img-top" alt={props.title}></img>
             <div className="card-body d-flex flex-column">
                 <h5 className="card-title">{props.title}</h5>

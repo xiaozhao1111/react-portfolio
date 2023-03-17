@@ -34,3 +34,15 @@ form button:hover {
   cursor: pointer;
   color:rgb(243, 244, 247);
 }
+
+.card-border {
+  --borderWidth: 5px;
+  background: #fcfcfc;
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+
+.card-border:hover {
+  scale: 1.05;
+
+}
