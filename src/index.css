@@ -9,6 +9,16 @@
   background-color: #031a30;
 }
 
+.page-body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #031a30;
+}
+footer {
+  margin-top: auto;
+}
+
 form {
   width: 400px;
   display: flex;
@@ -44,5 +54,4 @@ form button:hover {
 
 .card-border:hover {
   scale: 1.05;
-
 }

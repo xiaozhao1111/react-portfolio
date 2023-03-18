@@ -3,10 +3,12 @@ import Hero from "./Hero";
 
 function Header() {
     return (
-        <>
-        <Navbar />
-        <Hero />
-        </>
+        <header>
+            <Navbar />
+            <Hero />
+        </header>
+        
+        
     )
 }
 
